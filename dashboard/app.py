@@ -288,6 +288,9 @@ def predictions_page(scaler, clf_model, reg_model):
                     hovermode='x unified'
                 )
                 st.plotly_chart(fig_trends, use_container_width=True)
+        except Exception as e:
+            st.error(f"Error processing uploaded file: {e}")
+            st.exception(e)
     
     else:
         st.info("👆 Please upload a CSV file to get started.")

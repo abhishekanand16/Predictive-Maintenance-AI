@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files
+data/raw/*.txt
+data/processed/*.pkl
+data/processed/*.csv
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# MLflow
+mlruns/
+
+# Results
+results/*.png
+results/*.pdf
+results/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/

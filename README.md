@@ -74,7 +74,7 @@ predictive-maintenance-ai/
 
 1. **Clone the repository:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/abhishekanand16/Predictive-Maintenance-AI
 cd Predictive-Maintenance-AI
 ```
 
